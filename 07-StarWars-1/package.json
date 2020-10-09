@@ -1,10 +1,10 @@
 {
   "name": "starwars-express",
   "version": "1.0.0",
-  "description": "",
+  "description": "* `server1.js`",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,5 +13,6 @@
     "watch": "nodemon server1.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }

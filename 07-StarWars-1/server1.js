@@ -24,9 +24,14 @@ var darthmaul = {
 // Create one more data entry for the character Obi Wan Kenobi.
 // Enter any values you like for the parameters following the same format as the Yoda and Darth Maul character
 //
-
 // YOUR CODE GOES HERE
 
+var ObiWan = {
+  name: "Obi Wan Kenobi",
+  role: "Jedi Master",
+  age: 50,
+  forcePoints: 5000
+};
 //
 
 // Routes
@@ -41,6 +46,10 @@ app.get("/yoda", function(req, res) {
 
 app.get("/darthmaul", function(req, res) {
   res.json(darthmaul);
+});
+
+app.get("/obiWan", function(req, res) {
+  res.json(ObiWan);
 });
 
 // Create a new Express route that leads users to the new Obi Wan Kenobi Data
